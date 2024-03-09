@@ -30,11 +30,15 @@ public class Main {
 
         kalkulator(a,b);
         */
-
+        /*
         int c=inputInt();
-        System.out.printf("%b",IsEven(c));
+        System.out.println(IsEven(c));
         int h=inputInt();
-        System.out.printf("%b",Isdevide(h));
+        System.out.println(Isdevide(h));
+         */
+
+        int g =inputInt();
+        System.out.println(power(g));
     } // koniec main
 
     //z2
@@ -56,7 +60,7 @@ public class Main {
     */
     public static int inputInt(){
         Scanner input= new Scanner(System.in);
-        System.out.printf("Podaj liczbe");
+        System.out.printf("Podaj liczbe: ");
         int liczba = input.nextInt();
         return liczba;
 
@@ -77,10 +81,22 @@ public class Main {
         else return false;
 
     }
+    //5
+    public static int power(int c){
+        int result= (int) Math.pow(c,3);
+        return result;
+    }
+    public static int sqrt(int d){
+        int result= (int) Math.sqrt(d);
+        return result;
+    }
+
     //7
+    /*
     public static void Losuj(int a, int b){
         Random random = new Random(b-a+1)+a;
         double liczba =random.nextInt(10)+1;
 
     }
+     */
 }

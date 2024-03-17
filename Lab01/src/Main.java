@@ -85,6 +85,7 @@ public class Main {
     public static int power(int c){
         int result= (int) Math.pow(c,3);
         return result;
+    //6
     }
     public static int sqrt(int d){
         int result= (int) Math.sqrt(d);
